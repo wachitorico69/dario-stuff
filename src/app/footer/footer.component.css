@@ -1,0 +1,10 @@
+footer {
+  background-color: #ffeff2;
+  height: 50px;
+  display: flex;
+  align-items: center;  /*verticalmente */
+  justify-content: center; /*horizontalmente*/
+  border-top: 1.5px solid red;
+  font-family: "Space Mono", serif;
+  font-size: smaller;
+}
