@@ -1,10 +1,13 @@
 footer {
   background-color: #ffeff2;
-  height: 50px;
+  height: 80px;
   display: flex;
   align-items: center;  /*verticalmente */
   justify-content: center; /*horizontalmente*/
   border-top: 1.5px solid red;
   font-family: "Space Mono", serif;
-  font-size: smaller;
+  font-size: 18px;
+  font-weight: 700;
+  color: red;
+  font-style: normal;
 }
