@@ -1,0 +1,19 @@
+.social {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.raw {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.raw img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+}
