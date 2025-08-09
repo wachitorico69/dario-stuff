@@ -1,1 +1,76 @@
-<p>proyectos works!</p>
+<div class="container">
+    <div class="proyecto-card">
+        <h3 class="proyecto-title">Logo Writer</h3>
+        <div class="proyecto">
+            <div class="proyecto-image">
+                <button (click)="prevImage('logoIndex', logo)">‹</button>
+                <img [src]="logo[logoIndex]" alt="imagen del carrusel">
+                <button (click)="nextImage('logoIndex', logo)">›</button>
+            </div>
+            <div class="barcode">
+                <span>Lenguaje Ensamblador</span>
+                <span>Ensamblador<br>2024</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="proyecto-card">
+        <h3 class="proyecto-title">Retro Ritmo</h3>
+        <div class="proyecto">
+            <div class="proyecto-image">
+                <button (click)="prevImage('retroIndex', retro)">‹</button>
+                <img [src]="retro[retroIndex]" alt="imagen del carrusel">
+                <button (click)="nextImage('retroIndex', retro)">›</button>
+            </div>
+            <div class="barcode">
+                <span>Programación III</span>
+                <span>Java<br>2024</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="proyecto-card">
+        <h3 class="proyecto-title">Packet Sniffer</h3>
+        <div class="proyecto">
+            <div class="proyecto-image">
+                <button (click)="prevImage('psIndex', ps)">‹</button>
+                <img [src]="ps[psIndex]" alt="imagen del carrusel">
+                <button (click)="nextImage('psIndex', ps)">›</button>
+            </div>
+            <div class="barcode">
+                <span>Redes de Computadoras I</span>
+                <span>C/C++<br>2024</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="proyecto-card">
+        <h3 class="proyecto-title">JoJo's Game</h3>
+        <div class="proyecto">
+            <div class="proyecto-image">
+                <button (click)="prevImage('jojoIndex', jojo)">‹</button>
+                <img [src]="jojo[jojoIndex]" alt="imagen del carrusel">
+                <button (click)="nextImage('jojoIndex', jojo)">›</button>
+            </div>
+            <div class="barcode">
+                <span>Tecnologías Web<br><a href="https://jbagame.onrender.com/">Jugar</a></span>
+                <span>HTML/JS<br>2025</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="proyecto-card">
+        <h3 class="proyecto-title">Gorilla Gym</h3>
+        <div class="proyecto">
+            <div class="proyecto-image">
+                <button (click)="prevImage('gorillaIndex', gorilla)">‹</button>
+                <img [src]="gorilla[gorillaIndex]" alt="imagen del carrusel">
+                <button (click)="nextImage('gorillaIndex', gorilla)">›</button>
+            </div>
+            <div class="barcode">
+                <span>Tecnologías Web<br><a href="https://gorillas-gym.web.app/">Ver</a></span>
+                <span>Angular/JS<br>2025</span>
+            </div>
+        </div>
+    </div>
+</div>
