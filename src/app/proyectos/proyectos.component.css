@@ -75,14 +75,13 @@ button {
     border: 0.1px solid red;
 }
 
-/* Pantallas de tablet y celular */
 @media (max-width: 768px) {
   .container {
     grid-template-columns: 1fr;
   }
 
   .proyecto-image {
-    width: 100%; /* Para que no se corte en pantallas pequeñas */
+    width: 100%;
     height: auto;
   }
 }
